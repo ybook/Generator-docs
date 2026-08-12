@@ -1,21 +1,82 @@
-# Generator
+<div align="center">
 
-Biblioteca web de geradores e utilitários para desenvolvimento.
+# generator
 
-## Atualizações
-- CPF: UF opcional; sem seletor de cidade.
-- CNPJ: sem localização desnecessária.
-- RG/CNH/Título/Pessoa/Empresa: todas as 27 UFs.
-- CEP: consulta pública por UF, cidade e logradouro, filtro de bairro e escolha aleatória entre resultados encontrados.
-- Endereço: consulta CEP/logradouro e gera número residencial gerado.
-- Sidebar com categorias recolhíveis e botão +/−.
-- Tema claro/escuro somente por ícone.
-- Transição entre geradores sem escurecimento/fade.
-- Codificadores: Base64, Base32, Base58, ASCII85, URL, Hex, Binário, ROT13, ROT47, Atbash, Morse, SHA-256 e SHA-512.
-- Decodificador automático heurístico para Base64, Hex, Binário, URL, Morse, ROT13 e Atbash.
+Geradores de dados e utilitários para desenvolvimento.
 
-## Limites importantes
-- CNH, título eleitoral, RG e outros documentos são identificadores gerados para protótipos.
-- O gerador de cartão usa números de sandbox conhecidos; não gera cartões reais ou credenciais de pagamento utilizáveis.
-- Telefones são gerados em formato brasileiro, sem consulta ou tentativa de identificar linhas reais.
-- Endereços/CEPs podem ser consultados em bases públicas. A API oficial de Busca CEP dos Correios exige autenticação/contrato; por isso o frontend usa uma consulta pública de CEP para não expor credenciais.
+<br>
+
+![HTML](https://img.shields.io/badge/HTML-0d0d0d?style=flat-square\&logo=html5\&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-0d0d0d?style=flat-square\&logo=css\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-0d0d0d?style=flat-square\&logo=javascript\&logoColor=white)
+
+</div>
+
+---
+
+## Sobre
+
+Projeto web focado em geração de dados genéricos e ferramentas úteis para ambientes de desenvolvimento, testes e prototipação.
+
+Sem dependências pesadas e executado diretamente no navegador.
+
+## Geradores
+
+```text
+CPF
+CNPJ
+RG
+CNH
+Título Eleitoral
+Pessoa
+Empresa
+CEP
+Endereço
+Celular
+Chassi
+```
+
+## Encoding
+
+```text
+Base32
+Base58
+Base64
+ASCII85
+URL
+Hex
+Binary
+ROT13
+ROT47
+Atbash
+Morse
+SHA-256
+SHA-512
+```
+
+## Stack
+
+```text
+HTML
+CSS
+JavaScript
+```
+
+## Run
+
+```bash
+git clone https://github.com/SEU-USUARIO/cpf-generator.git
+cd cpf-generator
+```
+
+Depois, abra `index.html`.
+
+## Disclaimer
+
+Os dados gerados são genéricos e destinados exclusivamente a desenvolvimento, testes e prototipação.
+
+---
+
+<div align="center">
+<sub>built for dev</sub>
+</div>
