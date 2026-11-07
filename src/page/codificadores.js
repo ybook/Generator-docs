@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 window.AppPages = window.AppPages || {};
 
 window.AppPages.codificadores = () => `
@@ -54,3 +55,7 @@ window.AppPages.codificadores = () => `
     </div>
   </div>
 </section>`;
+=======
+window.AppPages=window.AppPages||{};
+window.AppPages.codificadores=()=>`<section class="generator-page"><div class="generator-top"><div><span class="eyebrow">DEV • CODIFICADORES</span><h1>Codificadores</h1><p>Formatos reversíveis, transformações e hashes para desenvolvimento. Hashes não podem ser decodificados.</p></div><button class="small-action" data-route="home">← Biblioteca</button></div><div class="encoder-layout"><div class="generator-card"><div class="card-title-row"><div><small>ENTRADA</small><h2>Texto</h2></div><span class="live-badge">LOCAL</span></div><textarea id="codec-input" class="codec-input" placeholder="Digite o texto..."></textarea><div class="field"><label>Codificação</label><select id="codec-type"><option value="base64">Base64</option><option value="base32">Base32</option><option value="base58">Base58</option><option value="ascii85">ASCII85 / Base85</option><option value="url">URL encode</option><option value="hex">Hexadecimal</option><option value="binary">Binário</option><option value="rot13">ROT13</option><option value="rot47">ROT47</option><option value="atbash">Atbash</option><option value="morse">Morse</option><option value="sha256">SHA-256</option><option value="sha512">SHA-512</option></select></div><div class="actions"><button id="codec-run" class="primary-action">Codificar <span>↗</span></button><button id="codec-clear" class="secondary-action">Limpar</button></div></div><div class="result-panel"><div class="result-head"><small>SAÍDA</small><span>RESULTADO</span></div><pre id="codec-result" class="codec-output">—</pre><div class="result-footer"><span>✓ Processamento no navegador</span><button class="ghost-copy" data-copy-target="codec-result">Copiar</button></div></div></div></section>`;
+>>>>>>> 48fe28230c3e3990b0db0726d5e1a6ad2a4a7b22
