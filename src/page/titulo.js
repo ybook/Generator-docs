@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 window.AppPages = window.AppPages || {};
 
 window.AppPages.titulo = () => `
@@ -53,7 +52,3 @@ window.AppPages.titulo = () => `
     </div>
   </div>
 </section>`;
-=======
-window.AppPages=window.AppPages||{};
-window.AppPages.titulo=()=>`<section class="generator-page"><div class="generator-top"><div><span class="eyebrow">ELEITORAL • TÍTULO</span><h1>Gerador de título eleitoral</h1><p>Gera numeração com UF selecionável</p></div><button class="small-action" data-route="home">← Biblioteca</button></div><div class="generator-layout"><div class="generator-card"><div class="card-title-row"><div><small>CONFIGURAÇÃO</small><h2>Localização</h2></div><span class="live-badge">FORMATO</span></div><div class="field"><label>Estado</label><select id="titulo-state">${AppLocation.stateOptions('SP')}</select></div><div class="field"><label>Zona</label><select id="titulo-zone"><option value="random">Aleatória</option><option value="capital">Capital</option><option value="interior">Interior</option></select></div><div class="actions"><button id="generate-titulo" class="primary-action">Gerar título <span>↗</span></button><button id="copy-titulo" class="secondary-action">Copiar</button></div><div class="notice"><span>Todo resultado termina com  para não representar um título emitido.</span></div></div><div class="result-panel"><div class="result-head"><small>RESULTADO</small><span>TÍTULO</span></div><h2 id="generic-result">0000 0000 0000</h2><p id="titulo-meta">Estado • zona</p><div class="result-footer"><span>✓ Estrutura •</span><button class="ghost-copy" data-copy-target="generic-result">Copiar</button></div></div></div></section>`;
->>>>>>> 48fe28230c3e3990b0db0726d5e1a6ad2a4a7b22

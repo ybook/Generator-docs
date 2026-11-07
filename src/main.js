@@ -15,12 +15,8 @@
         <span class="status-dot"></span>
         <span>Generator</span>
       </div>
-<<<<<<< HEAD
       <span class="status-synth">Dados Gerados para testes</span>
       <div class="status-message">Online</div>
-=======
-      <div class="status-message">Pronto</div>
->>>>>>> 48fe28230c3e3990b0db0726d5e1a6ad2a4a7b22
       <div class="status-actions"><span id="status-page">Generator</span></div>
     </footer>
   `;
