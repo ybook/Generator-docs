@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Generator</title>
+
+  <meta name="description" content="Geradores, CEP/endereço e ferramentas para desenvolvimento.">
+  <meta name="author" content="Book / Discord: book.ss">
+  <meta name="theme-color" content="#09090d">
+
+  <meta property="og:title" content="Generator">
+  <meta property="og:description" content="Geradores, CEP/endereço e ferramentas para desenvolvimento.">
+  <meta property="og:image" content="./public/img/preview.png">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Generator">
+  <meta name="twitter:description" content="Gerador fictício de CPF, CNPJ, RG e CEP.">
+  <meta name="twitter:image" content="./public/img/preview.png">
+
+  <link rel="icon" href="./favicon.webp" type="image/webp" sizes="32x32">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400..700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+
+  <link rel="stylesheet" href="./src/assets/css/global.css">
+  <link rel="stylesheet" href="./src/assets/css/topbar.css">
+  <link rel="stylesheet" href="./src/assets/css/generators.css">
+</head>
+<body>
+  <div id="app"></div>
+
+  <script src="./src/utils/random.js"></script>
+  <script src="./src/utils/format.js"></script>
+  <script src="./src/utils/copy.js"></script>
+  <script src="./src/utils/location.js"></script>
+  <script src="./src/utils/country-data.js"></script>
+  <script src="./src/utils/address-data.js"></script>
+  <script src="./src/utils/synthetic.js"></script>
+
+  <script src="./src/components/topbar.js"></script>
+  <script src="./src/components/theme-cord.js"></script>
+  <script src="./src/page/home.js"></script>
+  <script src="./src/page/cpf.js"></script>
+  <script src="./src/page/cnpj.js"></script>
+  <script src="./src/page/rg.js"></script>
+  <script src="./src/page/cep.js"></script>
+  <script src="./src/page/cnh.js"></script>
+  <script src="./src/page/chassi.js"></script>
+  <script src="./src/page/celular.js"></script>
+  <script src="./src/page/titulo.js"></script>
+  <script src="./src/page/pessoa.js"></script>
+  <script src="./src/page/empresa.js"></script>
+  <script src="./src/page/endereco.js"></script>
+  <script src="./src/page/codificadores.js"></script>
+  <script src="./src/page/decodificador.js"></script>
+
+  <script src="./src/services/cpf.js"></script>
+  <script src="./src/services/cnpj.js"></script>
+  <script src="./src/services/rg.js"></script>
+  <script src="./src/services/cep.js"></script>
+  <script src="./src/services/address.js"></script>
+  <script src="./src/services/new-generators.js"></script>
+
+  <script src="./src/main.js"></script>
+</body>
+</html>

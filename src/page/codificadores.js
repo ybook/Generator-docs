@@ -1,0 +1,56 @@
+window.AppPages = window.AppPages || {};
+
+window.AppPages.codificadores = () => `
+<section class="generator-page">
+  <div class="generator-top">
+    <div>
+      <h1>Codificadores</h1>
+      <p>Formatos reversíveis, transformações e hashes para desenvolvimento. Hashes não podem ser decodificados.</p>
+    </div>
+    <button class="small-action" data-route="home">← Biblioteca</button>
+  </div>
+
+  <div class="encoder-layout">
+    <div class="generator-card">
+      <div class="card-title-row">
+        <div><span class="mono-label">Entrada</span><h2>Texto</h2></div>
+        <span class="live-badge">Processamento local</span>
+      </div>
+      <textarea id="codec-input" class="codec-input" placeholder="Digite o texto..."></textarea>
+      <div class="field">
+        <label>Codificação</label>
+        <select id="codec-type">
+          <option value="base64">Base64</option>
+          <option value="base32">Base32</option>
+          <option value="base58">Base58</option>
+          <option value="ascii85">ASCII85 / Base85</option>
+          <option value="url">URL encode</option>
+          <option value="hex">Hexadecimal</option>
+          <option value="binary">Binário</option>
+          <option value="rot13">ROT13</option>
+          <option value="rot47">ROT47</option>
+          <option value="atbash">Atbash</option>
+          <option value="morse">Morse</option>
+          <option value="sha256">SHA-256</option>
+          <option value="sha512">SHA-512</option>
+        </select>
+      </div>
+      <div class="actions">
+        <button id="codec-run" class="primary-action">Codificar <span>↗</span></button>
+        <button id="codec-clear" class="secondary-action">Limpar</button>
+      </div>
+    </div>
+
+    <div class="result-panel">
+      <div class="result-head">
+        <span class="mono-label">Saída</span>
+        <span>RESULTADO</span>
+      </div>
+      <pre id="codec-result" class="codec-output">—</pre>
+      <div class="result-footer">
+        <span>✓ Processamento no navegador</span>
+        <button type="button" class="ghost-copy" data-copy-target="codec-result">Copiar</button>
+      </div>
+    </div>
+  </div>
+</section>`;

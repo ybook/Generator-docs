@@ -1,0 +1,11 @@
+window.AppThemeCord = {
+  render() { return ''; },
+  init() {
+    if (localStorage.getItem('generator-theme') === 'light') document.documentElement.classList.add('theme-light');
+    else document.documentElement.classList.remove('theme-light');
+    AppTopbar.initThemeButton();
+    AppTopbar.initGroups();
+    AppTopbar.initSidebarResizer();
+    AppTopbar.initDrawer();
+  }
+};
