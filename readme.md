@@ -1,8 +1,6 @@
 # Generator
 
-Uma coleção de geradores de dados fictícios e ferramentas simples para desenvolvimento, testes e prototipação. O projeto roda direto no navegador, sem instalação de dependências.
-
-![Prévia do Generator](./public/img/preview.png)
+Uma coleção de geradores de dados fictícios com cálculos reais e ferramentas simples para desenvolvimento, testes e prototipação. O projeto roda direto no navegador, sem instalação de dependências.
 
 ## O que tem por aqui
 
